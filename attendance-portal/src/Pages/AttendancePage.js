@@ -1,6 +1,7 @@
 import { FaPlus } from 'react-icons/fa';
+const AttendancePage = () => {
 
-const Button = styled.button`
+const Button = styles.button`
     background-color: #4a90e2;
     color: #fff;
     border: none;
@@ -14,8 +15,10 @@ const Button = styled.button`
         background-color: #357ab8;
     }
 `;
+};
+export default AttendancePage;
 
 <Button type="submit">
-    <FaPlus style={{ marginRight: '5px' }} />
+    <FaPlus styles={{ marginRight: '5px' }} />
     Add Student
 </Button>
